@@ -28,7 +28,7 @@ internal class ClassPackageNotFoundException(className: String)
 
 @AutoService(Processor::class)
 @SupportedAnnotationTypes(KSON_CANONICAL)
-class KsonProcessor: AbstractProcessor() {
+class KsonProcessor : AbstractProcessor() {
 
     override fun getSupportedSourceVersion(): SourceVersion {
         return SourceVersion.latest()
